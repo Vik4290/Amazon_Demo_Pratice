@@ -1,0 +1,145 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-12-16T13:55:39.230Z",
+    "end": "2021-12-16T13:56:05.930Z",
+    "duration": 26700,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "c1f7fc9d-51ed-4f44-8295-2c87dcc70752",
+      "title": "",
+      "fullFile": "cypress/integration/Testcases/TC01_HomePage.spec.js",
+      "file": "cypress/integration/Testcases/TC01_HomePage.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "8f101b1a-23d3-4077-9082-5e14fef95aad",
+          "title": "Homepage_Testcases",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Navigate to URL - Load HomePage",
+              "fullTitle": "Homepage_Testcases Navigate to URL - Load HomePage",
+              "timedOut": null,
+              "duration": 8471,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "hpa.navigateToURL();",
+              "err": {},
+              "uuid": "b095210e-e574-4ace-a9e6-2b73a4b60a9c",
+              "parentUUID": "8f101b1a-23d3-4077-9082-5e14fef95aad",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Validate Page Title must be Amazon",
+              "fullTitle": "Homepage_Testcases Validate Page Title must be Amazon",
+              "timedOut": null,
+              "duration": 2157,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "hpa.validateTitle().should('include', 'Amazon');",
+              "err": {},
+              "uuid": "461629dd-3e18-42b9-8627-c055b610dbda",
+              "parentUUID": "8f101b1a-23d3-4077-9082-5e14fef95aad",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Search - item",
+              "fullTitle": "Homepage_Testcases Search - item",
+              "timedOut": null,
+              "duration": 13992,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "hpa.search(data.searchshoes);",
+              "err": {},
+              "uuid": "cc3193bd-2d37-4877-8d89-5f4d7adf46b2",
+              "parentUUID": "8f101b1a-23d3-4077-9082-5e14fef95aad",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "b095210e-e574-4ace-a9e6-2b73a4b60a9c",
+            "461629dd-3e18-42b9-8627-c055b610dbda",
+            "cc3193bd-2d37-4877-8d89-5f4d7adf46b2"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 24620,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "testresults",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "reportFilename": "testresults",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "charts": true
+      },
+      "version": "6.0.1"
+    }
+  }
+}

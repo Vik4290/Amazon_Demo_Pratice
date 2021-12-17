@@ -1,0 +1,221 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 7,
+    "passes": 7,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-12-16T13:59:52.107Z",
+    "end": "2021-12-16T14:01:15.961Z",
+    "duration": 83854,
+    "testsRegistered": 7,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "6af07d4f-3d0d-416d-bf6f-3061eec0282d",
+      "title": "",
+      "fullFile": "cypress/integration/Testcases/TC02_SearchPage.spec.js",
+      "file": "cypress/integration/Testcases/TC02_SearchPage.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "d7d929da-49f0-438a-be0f-1c8fd0adc953",
+          "title": "Homepage_Testcases",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Navigate to URL - Load HomePage",
+              "fullTitle": "Homepage_Testcases Navigate to URL - Load HomePage",
+              "timedOut": null,
+              "duration": 7912,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "hpa.navigateToURL();",
+              "err": {},
+              "uuid": "ef989dac-fca9-4f54-833d-9f84d98107c3",
+              "parentUUID": "d7d929da-49f0-438a-be0f-1c8fd0adc953",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Search - item",
+              "fullTitle": "Homepage_Testcases Search - item",
+              "timedOut": null,
+              "duration": 14790,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "hpa.search(data.searchshoes);",
+              "err": {},
+              "uuid": "a3502adf-bb10-45e7-a649-bb809cb9239d",
+              "parentUUID": "d7d929da-49f0-438a-be0f-1c8fd0adc953",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify-Search Page",
+              "fullTitle": "Homepage_Testcases Verify-Search Page",
+              "timedOut": null,
+              "duration": 1667,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "sspe.searchresult();",
+              "err": {},
+              "uuid": "e42aea33-b924-442f-a3ab-fa2fbbab6380",
+              "parentUUID": "d7d929da-49f0-438a-be0f-1c8fd0adc953",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify-Search Filter",
+              "fullTitle": "Homepage_Testcases Verify-Search Filter",
+              "timedOut": null,
+              "duration": 21528,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "sspe.SelectFilters();",
+              "err": {},
+              "uuid": "dee6027c-932f-4e2b-9171-e587678317b1",
+              "parentUUID": "d7d929da-49f0-438a-be0f-1c8fd0adc953",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify-Search result Count, Number of items shown in result must be equal to count",
+              "fullTitle": "Homepage_Testcases Verify-Search result Count, Number of items shown in result must be equal to count",
+              "timedOut": null,
+              "duration": 5459,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "sspe.validate_SearchresultCount();",
+              "err": {},
+              "uuid": "454c506c-1908-4d9b-9f12-1cdcd59ae299",
+              "parentUUID": "d7d929da-49f0-438a-be0f-1c8fd0adc953",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify-Search result w.r.t SORTING",
+              "fullTitle": "Homepage_Testcases Verify-Search result w.r.t SORTING",
+              "timedOut": null,
+              "duration": 640,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "sspe.verifysorting();\nsspe.VerifycartbeforeAdditem();",
+              "err": {},
+              "uuid": "0a9e012e-feb9-4911-b03b-0b17b18b00c3",
+              "parentUUID": "d7d929da-49f0-438a-be0f-1c8fd0adc953",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify-Add to cart",
+              "fullTitle": "Homepage_Testcases Verify-Add to cart",
+              "timedOut": null,
+              "duration": 30291,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "sspe.Addtocart();",
+              "err": {},
+              "uuid": "984099f4-ef99-4285-876c-67680f70f4ce",
+              "parentUUID": "d7d929da-49f0-438a-be0f-1c8fd0adc953",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ef989dac-fca9-4f54-833d-9f84d98107c3",
+            "a3502adf-bb10-45e7-a649-bb809cb9239d",
+            "e42aea33-b924-442f-a3ab-fa2fbbab6380",
+            "dee6027c-932f-4e2b-9171-e587678317b1",
+            "454c506c-1908-4d9b-9f12-1cdcd59ae299",
+            "0a9e012e-feb9-4911-b03b-0b17b18b00c3",
+            "984099f4-ef99-4285-876c-67680f70f4ce"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 82287,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "testresults",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "reportFilename": "testresults",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "charts": true
+      },
+      "version": "6.0.1"
+    }
+  }
+}
