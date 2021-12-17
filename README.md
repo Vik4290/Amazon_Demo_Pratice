@@ -14,6 +14,7 @@ A brief about the project repository structure:
                           element class will be called in corresponding action class. Page Element class interact with Locators.json to get webelement values.
   - **Locators:** Locators is json file which consist of WebElement locators. This class values are used by Page Element class. 
   - **cypress.json:** Consist of some global parameters values that is used by cypress Testscripts.
+  - **package.json:** myReports folder contains consolidated mochaawesome generated reports post execution. 
   - **package.json:** Consist of all the dependencies that are required to execute the Testcases. In package.json also added npm scripts to run testcases:
                       "scripts": {
                       "launchcypress": ".\\node_modules\\.bin\\cypress open",
@@ -22,6 +23,7 @@ A brief about the project repository structure:
                       "generate-report": "marge mochawesome.json",
                       "finaltest": "npm run testcases && npm run merge-reports && npm run generate-report"
                        },
+         
 
 ## Instructions to setup project and Run tests locally
 
