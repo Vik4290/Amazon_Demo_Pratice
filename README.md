@@ -15,7 +15,7 @@ A brief about the project repository structure:
   - **Locators:** Locators is json file which consist of WebElement locators. This class values are used by Page Element class. 
   - **cypress.json:** Consist of some global parameters values that is used by cypress Testscripts.
   - **package.json:** myReports folder contains consolidated mochaawesome generated reports post execution. 
-  - **package.json:** Consist of all the dependencies that are required to execute the Testcases. In package.json also added npm scripts to run testcases:
+  - **myReports:** Consist of all the dependencies that are required to execute the Testcases. In package.json also added npm scripts to run testcases:
                       "scripts": {
                       "launchcypress": ".\\node_modules\\.bin\\cypress open",
                       "testcases": ".\\node_modules\\.bin\\cypress run --headed --spec .\\cypress\\integration\\Testcases\\*.js --browser chrome",
